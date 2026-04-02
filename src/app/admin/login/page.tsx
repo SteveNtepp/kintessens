@@ -37,7 +37,7 @@ export default function AdminLoginPage() {
       <div className="w-full max-w-md space-y-8">
         <div className="text-center space-y-2">
            <div className="flex justify-center mb-10">
-              <Logo color="white" size="lg" />
+              <Logo color="light" size="lg" />
            </div>
         </div>
 

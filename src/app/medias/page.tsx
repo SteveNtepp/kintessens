@@ -1,12 +1,14 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 import { PublicLayout } from '@/components/layout/PublicLayout';
 import { AnimatedSection } from '@/components/sections/AnimatedSection';
 import { MediaCard } from '@/components/sections/MediaCard';
 import { DEMO_MEDIA } from '@/lib/data';
 import { mediaTypeLabel, cn } from '@/lib/utils';
-import { Play, Grid, List, Search } from 'lucide-react';
+import { Play, Grid, List, Search, ArrowRight } from 'lucide-react';
 
 const categories = ['all', 'video_live', 'short_clip', 'documentary', 'backstage', 'interview', 'photo_gallery'];
 

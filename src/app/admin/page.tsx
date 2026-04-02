@@ -26,7 +26,7 @@ import {
   PieChart,
   Pie
 } from 'recharts';
-import { DEMO_DASHBOARD_STATS, DEMO_EVENTS, DEMO_ARTISTS } from "@/lib/data";
+import { DEMO_EVENTS, DEMO_ARTISTS } from "@/lib/data";
 import { Badge } from "@/components/ui/badge";
 import { formatDate } from "@/lib/utils";
 

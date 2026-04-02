@@ -5,7 +5,7 @@ import {
   DEMO_MEDIA, 
   DEMO_PARTNERS, 
   DEMO_PRESS 
-} from './src/lib/data';
+} from '../src/lib/data';
 
 // Instructions: Run this script with node or through a temporary API route to seed your Supabase instance.
 // Ensure SUPABASE_SERVICE_ROLE_KEY is set in your environment.

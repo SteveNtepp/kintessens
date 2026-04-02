@@ -4,7 +4,7 @@ import {
   Event, 
   MediaItem, 
   Partner, 
-  PressItem 
+  PressAsset 
 } from './types';
 import { 
   DEMO_ARTISTS, 
