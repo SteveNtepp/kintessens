@@ -101,7 +101,7 @@ export default function PartenairesPage() {
                  <Handshake className="w-16 h-16 text-white mx-auto mb-8 stroke-[1px]" />
                  <h3 className="font-heading text-3xl font-bold text-white mb-6">Rejoignez-nous</h3>
                  <p className="font-body text-sm text-[#6E6E6E] mb-10 leading-relaxed">
-                   Téléchargez notre dossier de partenariat 2025 pour découvrir nos formats de collaboration et les activations possibles.
+                   Téléchargez notre dossier de partenariat 2026 pour découvrir nos formats de collaboration et les activations possibles.
                  </p>
                  <div className="flex flex-col gap-4">
                     <button className="w-full flex items-center justify-center gap-3 py-4 bg-white text-[#0A0A0A] font-body text-sm font-medium hover:bg-[#F7F6F2] transition-colors">

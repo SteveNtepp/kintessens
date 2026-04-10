@@ -51,13 +51,13 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-6 font-body text-base text-[#6E6E6E] leading-relaxed">
                 <p>
-                  KINTESSENS est né d&apos;une évidence : la création contemporaine africaine — dans toute sa richesse, sa singularité, sa modernité — méritait une plateforme pensée à sa mesure.
+                  KINTESSENS est née d&apos;une évidence : la création contemporaine africaine — dans toute sa richesse, sa singularité, sa modernité — méritait une plateforme pensée à sa mesure.
                 </p>
                 <p>
                   Ni simple festival, ni simple label, ni simple média — KINTESSENS est une <strong className="text-[#0A0A0A]">marque culturelle totale</strong>, une institution artistique en construction, un espace de convergence entre les disciplines, les générations et les territoires.
                 </p>
                 <p>
-                  Fondée à Dakar en 2025, KINTESSENS a immédiatement affirmé une ambition panafricaine et internationale. Nos formats artistiques — LIVE, FESTIVAL, SOLIDARITY — sont autant de manières d&apos;habiter l&apos;art, de le partager, de le transmettre.
+                  Fondée à Dakar en 2026, KINTESSENS a immédiatement affirmé une ambition panafricaine et internationale. Nos formats artistiques — LIVE, FESTIVAL, SOLIDARITY — sont autant de manières d&apos;habiter l&apos;art, de le partager, de le transmettre.
                 </p>
                 <p>
                   La <em>quintessence</em> : c&apos;est ce que nous cherchons dans chaque artiste, chaque performance, chaque production. Le meilleur de ce que le continent a à offrir — présenté avec l&apos;exigence qu&apos;il mérite.
@@ -75,7 +75,7 @@ export default function AboutPage() {
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-[#0A0A0A] p-6 text-center">
-                  <p className="font-heading text-4xl font-bold text-white mb-1">2025</p>
+                  <p className="font-heading text-4xl font-bold text-white mb-1">2026</p>
                   <p className="font-body text-xs text-[#6E6E6E] uppercase tracking-widests">Fondation</p>
                 </div>
                 <div className="bg-[#0A0A0A] p-6 text-center">

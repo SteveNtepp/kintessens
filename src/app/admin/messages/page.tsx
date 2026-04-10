@@ -32,7 +32,7 @@ import {
 } from "lucide-react";
 
 const demoMessages = [
-  { id: '1', name: 'Oumar Sy', email: 'oumar@example.com', subject: 'Candidature live 2025', date: '2026-03-31T14:20:00Z', type: 'artist', status: 'new' },
+  { id: '1', name: 'Oumar Sy', email: 'oumar@example.com', subject: 'Candidature live 2026', date: '2026-03-31T14:20:00Z', type: 'artist', status: 'new' },
   { id: '2', name: 'Fatou Diop', email: 'fatou@brand.com', subject: 'Partenariat Festival', date: '2026-03-31T11:45:00Z', type: 'partnership', status: 'read' },
   { id: '3', name: 'Moussa Ndiaye', email: 'moussa@web.sn', subject: 'Question billetterie', date: '2026-03-30T18:30:00Z', type: 'general', status: 'replied' },
   { id: '4', name: 'Sarah Koné', email: 'sarah@journal.com', subject: 'Demande Interview', date: '2026-03-29T10:15:00Z', type: 'press', status: 'read' },

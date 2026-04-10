@@ -214,7 +214,7 @@ export default function AdminDashboardPage() {
             <CardContent>
                <div className="space-y-6">
                   {[
-                    { name: 'Oumar Sy', subject: 'Candidature live 2025', time: 'il y a 2h', type: 'Artiste' },
+                    { name: 'Oumar Sy', subject: 'Candidature live 2026', time: 'il y a 2h', type: 'Artiste' },
                     { name: 'Fatou Diop', subject: 'Partenariat Festival', time: 'il y a 5h', type: 'Partenaire' },
                     { name: 'Moussa Ndiaye', subject: 'Question billetterie', time: 'il y a 1j', type: 'Général' },
                     { name: 'Sarah Koné', subject: 'Demande Interview', time: 'il y a 2j', type: 'Presse' },

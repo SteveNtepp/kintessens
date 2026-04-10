@@ -165,7 +165,7 @@ export default function HomePage() {
                 <em className="not-italic text-[#6E6E6E]">sans frontières.</em>
               </h2>
               <p className="font-body text-lg text-[#6E6E6E] leading-relaxed mb-8 max-w-xl">
-                KINTESSENS est né d&apos;une conviction : la création contemporaine africaine mérite une plateforme à la hauteur de son ambition. Une scène. Un son. Un regard.
+                KINTESSENS est née d&apos;une conviction : la création contemporaine africaine mérite une plateforme à la hauteur de son ambition. Une scène. Un son. Un regard.
               </p>
               <p className="font-body text-base text-[#6E6E6E] leading-relaxed max-w-xl">
                 Nous réunissons les artistes les plus singuliers du continent — musiciens, poètes, plasticiens, performeurs, réalisateurs — et nous les mettons en lumière avec l&apos;exigence qui leur est due.
@@ -193,7 +193,7 @@ export default function HomePage() {
                 </div>
                 <div className="absolute -bottom-6 -right-6 w-48 h-32 bg-[#0A0A0A] flex items-center justify-center">
                   <div className="text-center">
-                    <p className="font-heading text-4xl font-bold text-white">2025</p>
+                    <p className="font-heading text-4xl font-bold text-white">2026</p>
                     <p className="font-body text-xs text-white/50 tracking-widest uppercase">Première saison</p>
                   </div>
                 </div>

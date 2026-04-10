@@ -77,7 +77,7 @@ export default function FestivalPage() {
         <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
           <AnimatedSection className="mb-16">
             <p className="font-body text-[11px] tracking-widests uppercase text-[#6E6E6E] mb-4">Prochaine édition</p>
-            <h2 className="font-heading text-4xl md:text-5xl font-bold text-white">KINTESSENS FESTIVAL 2025</h2>
+            <h2 className="font-heading text-4xl md:text-5xl font-bold text-white">KINTESSENS FESTIVAL 2026</h2>
           </AnimatedSection>
           {festivalEvents.map((event) => (
             <AnimatedSection key={event.id}>
