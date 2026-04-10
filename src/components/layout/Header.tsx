@@ -57,7 +57,7 @@ export function Header({ transparent = false }: HeaderProps) {
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  'font-body text-sm font-medium tracking-wide transition-colors duration-200 hover:opacity-100',
+                  'whitespace-nowrap font-body text-sm font-medium tracking-wide transition-colors duration-200 hover:opacity-100',
                   isDark
                     ? 'text-white/80 hover:text-white'
                     : 'text-[#6E6E6E] hover:text-[#0A0A0A]'
@@ -73,7 +73,7 @@ export function Header({ transparent = false }: HeaderProps) {
             <Link
               href="/evenements"
               className={cn(
-                'flex items-center gap-2 px-4 py-2 text-sm font-medium font-body border transition-all duration-200',
+                'flex items-center gap-2 h-9 px-4 text-sm font-medium font-body border transition-all duration-200',
                 isDark
                   ? 'border-white/30 text-white hover:bg-white hover:text-[#0A0A0A]'
                   : 'border-[#D9D9D9] text-[#6E6E6E] hover:border-[#0A0A0A] hover:text-[#0A0A0A]'
@@ -85,7 +85,7 @@ export function Header({ transparent = false }: HeaderProps) {
             <Link
               href="/contact?type=partnership"
               className={cn(
-                'flex items-center gap-2 px-4 py-2 text-sm font-medium font-body transition-all duration-200',
+                'flex items-center gap-2 h-9 px-4 text-sm font-medium font-body transition-all duration-200',
                 isDark
                   ? 'bg-white text-[#0A0A0A] hover:bg-[#F7F6F2]'
                   : 'bg-[#0A0A0A] text-[#F7F6F2] hover:bg-[#1E1E1E]'
