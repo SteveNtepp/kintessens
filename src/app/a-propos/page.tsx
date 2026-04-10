@@ -105,7 +105,7 @@ export default function AboutPage() {
               { src: '/images/team/didier-awadi.jpg', name: 'Didier Awadi', role: 'Directeur Artistique' },
               { src: '/images/team/duggy-tee.jpg',   name: 'Duggy Tee',    role: 'Conseil Artistique'  },
               { src: '/images/team/dj-boups-v2.jpg',    name: 'DJ Boups',     role: 'Directeur Musical'   },
-              { src: '/images/team/bakhaw-v2.jpg',      name: 'Bakhaw',       role: 'Production'          },
+              { src: '/images/team/bakhaw-v3.jpg',      name: 'Bakhaw',       role: 'Production'          },
             ].map((member, i) => (
               <AnimatedSection key={member.name} delay={i * 100}>
                 <div className="group flex flex-col">
