@@ -58,13 +58,6 @@ export function ArtistCard({ artist, variant = 'default', className }: ArtistCar
             />
           )}
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-          {artist.status === 'artistic_council' && (
-            <div className="absolute top-3 left-3 bg-[#C8A96B] px-2 py-1">
-              <span className="font-body text-[9px] font-bold tracking-widest uppercase text-white">
-                Conseil Artistique
-              </span>
-            </div>
-          )}
         </div>
         <h3 className="font-heading text-xl font-bold text-[#0A0A0A] group-hover:text-[#1E1E1E] transition-colors">
           {artist.name}
@@ -97,13 +90,6 @@ export function ArtistCard({ artist, variant = 'default', className }: ArtistCar
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-700"
           />
-        )}
-        {artist.status === 'artistic_council' && (
-          <div className="absolute top-4 left-4 bg-[#C8A96B] px-3 py-1">
-            <span className="font-body text-[10px] font-bold tracking-widest uppercase text-white">
-              Conseil Artistique
-            </span>
-          </div>
         )}
         <div className="absolute inset-0 overlay-dark opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">

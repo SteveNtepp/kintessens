@@ -185,7 +185,7 @@ export default function HomePage() {
                 <div className="absolute -top-6 -left-6 w-48 h-48 border border-[#D9D9D9]" />
                 <div className="relative aspect-[4/5] bg-[#1E1E1E] overflow-hidden">
                   <Image
-                    src="/images/about/vision.jpg"
+                    src="/images/about/vision-v3.jpg"
                     alt="KINTESSENS — Vision artistique"
                     fill
                     className="object-cover opacity-80"

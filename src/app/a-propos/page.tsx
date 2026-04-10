@@ -67,7 +67,7 @@ export default function AboutPage() {
             <AnimatedSection direction="right" delay={200} className="space-y-8">
               <div className="relative aspect-[4/5] overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 bg-[#1E1E1E]">
                 <Image
-                  src="/images/about/vision.jpg"
+                  src="/images/about/vision-v3.jpg"
                   alt="KINTESSENS Vision"
                   fill
                   className="object-cover"
@@ -103,7 +103,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
               { src: '/images/team/didier-awadi.jpg', name: 'Didier Awadi', role: 'Directeur Artistique' },
-              { src: '/images/team/duggy-tee.jpg',   name: 'Duggy Tee',    role: 'Conseil Artistique'  },
+              { src: '/images/team/duggy-tee.jpg',   name: 'Duggy Tee',    role: 'Directeur Artistique'  },
               { src: '/images/team/dj-boups-v2.jpg',    name: 'DJ Boups',     role: 'Directeur Musical'   },
               { src: '/images/team/bakhaw-v3.jpg',      name: 'Bakhaw',       role: 'Production'          },
             ].map((member, i) => (
