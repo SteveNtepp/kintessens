@@ -88,6 +88,46 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Notre équipe */}
+      <section className="py-28 md:py-40 bg-[#0A0A0A]">
+        <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
+          <AnimatedSection className="mb-16 text-center">
+            <p className="font-body text-[11px] tracking-widest uppercase text-[#6E6E6E] mb-4">
+              Les visages de KINTESSENS
+            </p>
+            <h2 className="font-heading text-4xl md:text-5xl font-bold text-white">
+              Notre équipe
+            </h2>
+          </AnimatedSection>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {[
+              { src: '/images/team/didier-awadi.jpg', name: 'Didier Awadi', role: 'Directeur Artistique' },
+              { src: '/images/team/duggy-tee.jpg',   name: 'Duggy Tee',    role: 'Conseil Artistique'  },
+              { src: '/images/team/dj-boups.jpg',    name: 'DJ Boups',     role: 'Directeur Musical'   },
+              { src: '/images/team/bakhaw.jpg',      name: 'Bakhaw',       role: 'Production'          },
+            ].map((member, i) => (
+              <AnimatedSection key={member.name} delay={i * 100}>
+                <div className="group flex flex-col">
+                  <div className="relative aspect-[3/4] overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 bg-[#1E1E1E]">
+                    <Image
+                      src={member.src}
+                      alt={member.name}
+                      fill
+                      className="object-cover object-top"
+                    />
+                  </div>
+                  <div className="pt-4">
+                    <p className="font-heading text-base font-bold text-white">{member.name}</p>
+                    <p className="font-body text-xs text-[#6E6E6E] uppercase tracking-widest mt-1">{member.role}</p>
+                  </div>
+                </div>
+              </AnimatedSection>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Vision */}
       <section className="py-28 bg-[#0A0A0A]">
         <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
