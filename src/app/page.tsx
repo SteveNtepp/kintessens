@@ -342,6 +342,16 @@ export default function HomePage() {
       {/* ─── VIDEO SECTION ─── */}
       <section className="relative py-28 md:py-0 bg-[#0A0A0A] overflow-hidden">
         <div className="md:aspect-[16/7] relative bg-[#1E1E1E] flex items-center justify-center">
+          {/* Background image */}
+          <div className="absolute inset-0 z-0">
+            <Image
+              src="/images/media/production.jpg"
+              alt="L'expérience audiovisuelle KINTESSENS"
+              fill
+              className="object-cover opacity-40 mix-blend-luminosity"
+            />
+          </div>
+
           {/* Background overlay */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0A] via-transparent to-[#0A0A0A] z-10" />
 
